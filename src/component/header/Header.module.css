@@ -1,0 +1,36 @@
+.header {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+
+  box-shadow: 0 4px 8px rgba(54, 52, 52, 0.1);
+  margin-bottom: 2rem;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+nav {
+  /* margin-right: 3rem; */
+}
+
+a {
+  margin: 0.5rem;
+
+  text-decoration: none;
+  color: rgb(12, 11, 11);
+}
+
+a:hover {
+  border-bottom: 1px dashed white;
+}
+
+.active {
+  color: rgb(255, 197, 90);
+  border-bottom: 1px dashed maroon;
+  font-weight: 600;
+}
